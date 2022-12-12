@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="sheet.css">
+<link rel="stylesheet" href="font.css">
+<link rel="stylesheet" href="font2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head><script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script></head>
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="IMG_0755.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#education" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-book w3-xxlarge"></i>
+    <p>EDUCATION</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-fighter-jet w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#skills" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-bar-chart w3-xxlarge"></i>
+    <p>SKILLS</p>
+  </a>
+  <a href="#experience" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-list-alt w3-xxlarge"></i>
+    <p>EXPERIENCE</p>
+  </a>
+  <a href="#interests" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-thumbs-up w3-xxlarge"></i>
+    <p>INTERESTS</p>
+  </a>
+  <a href="#awards" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-trophy w3-xxlarge"></i>
+    <p>AWARDS</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+  <a href="#feedback" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-address-book w3-xxlarge"></i>
+    <p>FEEDBACK</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">BIOGRAPHY</a>
+    <a href="#education" class="w3-bar-item w3-button" style="width:25% !important">EDUCATION</a>
+    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#skills" class="w3-bar-item w3-button" style="width:25% !important">SKILLS</a>
+    <a href="#experience" class="w3-bar-item w3-button" style="width:25% !important">EXPERIENCE</a>
+    <a href="#interests" class="w3-bar-item w3-button" style="width:25% !important">INTERESTS</a>
+    <a href="#awards" class="w3-bar-item w3-button" style="width:25% !important">AWARDS</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    <a href="#feedback" class="w3-bar-item w3-button" style="width:25% !important">FEEDBACK</a>
+    
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Muhammad Malik.</h1>
+    <p>Ecommerce Expert and Web Designer.</p>
+    <img src="IMG_0755.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Biography</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I was born and raised in Islamabad. Originally I belong to Nalli,
+     District Khushab. I have always been a bright student and put 
+     a 120% in everything I do. I have always had a knack for coding, marketing and badminton. 
+     Diverse, right? Mechatronics attracted me because I found automation interesting and I hope to pursue this.
+     Despite many ups and downs along the way I hope to travel the world and finally settle down in a village in Switzerland.
+    </p>
+
+    <div style="font-size: 13px;color: white; padding: 10px;" id="education">
+        <h2>Education</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p >College of Electrical and Mechanical Engineering, NUST (2019-present):</p>
+        <ul>
+            <li>BE Mechatronics Engineering</li>
+            <li>CGPA: 3.9</li>
+            
+        </ul>
+    
+        <br>
+        <p>OPF Boys College H-8/4, Islamabad</p>
+        <ul>
+            <li>F.Sc Pre-engineering (2017-2019)</li>
+            <li>Matriculation (2015-2017)</li>
+        </ul>
+    </div>
+
+
+    <div class="w3-container" id="projects"></div>
+        <h2 class="w3-text-light-grey">Projects</h2> 
+        <hr style="width:200px" class="w3-opacity">
+        <table class="w3-table-all w3-card-4 w3-hoverable w3-tiny w3-text-black">
+            <tr>
+              <th>Semester</th>
+              <th>Project</th>
+              <th>Course</th>
+            </tr>
+            <tr>
+              <td>1st</td>
+              <td>Seven Segment Display</td>
+              <td>ECA</td>
+            </tr>
+            <tr>
+              <td>1st</td>
+              <td>Coin Seperator</td>
+              <td>Engineering Statics</td>
+            </tr>
+            <tr>
+              <td>2nd</td>
+              <td>Tic Tac Toe</td>
+              <td>FOP</td>
+            </tr>
+            <tr>
+              <td>2nd</td>
+              <td>Power Plant Simulation</td>
+              <td>Thermodynamics</td>
+            </tr>
+            <tr>
+              <td>3rd</td>
+              <td>Chess</td>
+              <td>DS & OOP</td>
+            </tr>
+            <tr>
+              <td>3rd</td>
+              <td>3d model of Lathe Machine</td>
+              <td>Solid Modelling</td>
+            </tr>
+            <tr>
+                <td>3rd</td>
+                <td>water Level Detector</td>
+                <td>DLD</td>
+              </tr>
+          </table>
+    </div>
+    
+    <div class="w3-content w3-justify w3-text-white w3-padding-64">
+    <h2 class="w3-text-light-grey">My Skills</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p class="w3-wide">Digital Marketing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+    </div>
+    <p class="w3-wide">Shopify Store Creation</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">Daraz VA</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Dropshipping</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">C++</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Public Speaking</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div><br>
+
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey" id="experience">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">2</span><br>
+        Daraz Stores
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Photomath</span><br>
+        Expert
+      </div>
+    </div>
+
+
+    
+    <!-- Grid for pricing tables -->
+    <h2 class="w3-text-light-grey">Interests & Hobbies</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Travelling</li>
+          <li class="w3-padding-16">Hiking</li>
+          <li class="w3-padding-16">Camping</li>
+          <li class="w3-padding-16">Swimming</li>
+          
+          
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Anime</li>
+          <li class="w3-padding-16">Action</li>
+          <li class="w3-padding-16">Adventure</li>
+          <li class="w3-padding-16">Shonen</li>
+          
+        </ul>
+      </div>
+
+    
+      
+    
+    </div>
+    <div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Gaming</li>
+          <li class="w3-padding-16">Action</li>
+          <li class="w3-padding-16">FPS</li>
+          <li class="w3-padding-16">Indie</li>
+          <li class="w3-padding-16">RPG</li>
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- End Grid/Pricing tables -->
+    <!-- Awards -->
+    <h2 class="w3-text-light-grey">Awards & Certificates</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-tiny">
+   
+        <ul class="w3-ul w3-border-bottom"  style="width:50%">
+            
+                <b>Speeches</b>
+                <ul class="w3-ul">
+                    <li>
+                        OPF Annual Speech Competition 2018 (1st Place)
+                    </li>
+                    <li>
+                        Participation in Bahria Annual Debate Competition 2018
+                    </li>
+                    <li>Participation in Fizaia Annual Declamation Contest 2019</li>
+                </ul>
+    
+    
+            
+        </ul>
+    <br>
+        <ul class="w3-ul w3-border-bottom"  style="width: 50%;">
+            <b>Annual Science Exhibition OPF Boys College 2018</b>
+            <ul class="w3-ul">
+                <li>Certificate of Participation</li>
+                
+            </ul>
+        </ul>
+    <br>
+        <ul class="w3-ul w3-border-bottom" style="width: 50%;">
+            <b>Sports</b>
+            <ul class="w3-ul"> 
+                <li>OPF Boys College Badminton Team</li>
+                
+            </ul>
+        </ul>
+    </div>
+    </div>
+    <!-- Testimonials -->
+    <!-- <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p><br>
+    
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p> -->
+  <!-- End About Section -->
+  <!-- </div> -->
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="WhatsApp Image 2021-05-12 at 10.54.07 PM (1).jpeg" style="width:100%">
+        <img src="WhatsApp Image 2021-05-12 at 10.54.07 PM (2).jpeg" style="width:100%">
+        <img src="WhatsApp Image 2021-05-12 at 10.54.07 PM.jpeg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="WhatsApp Image 2021-05-12 at 10.57.26 PM.jpeg" style="width:100%">
+        <img src="WhatsApp Image 2021-05-12 at 11.10.56 PM.jpeg" style="width:100%">
+        <!-- <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/p6.jpg" style="width:100%"> -->
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section --> 
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Islamabad, Pakistan</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +92 3333333333</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mmalik.mts41ceme@student.nust.edu.pk</p>
+    </div><br>
+
+    <div class="w3-padding-64 w3-content w3-text-white" id="feedback">
+      <h2 class="w3-text-light-grey">Feedback</h2>
+      <hr style="width:200px" class="w3-opacity">
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </div>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <!-- <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+   End footer -->
+  <!--</footer> -->
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
